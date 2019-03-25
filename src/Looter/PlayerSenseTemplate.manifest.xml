@@ -1,0 +1,12 @@
+<manifest>
+    <main-class>Looter.Main</main-class>
+    <name>Grand Exchange Looter Bot</name>
+    <description>Yeet YEET</description>
+    <version>1.0</version>
+    <compatibility>
+        <game-type>OSRS</game-type>
+    </compatibility>
+    <categories>
+        <category>COMBAT</category>
+    </categories>
+</manifest>
