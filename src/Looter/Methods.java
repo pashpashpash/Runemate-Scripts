@@ -110,7 +110,7 @@ public final class Methods {
                         String text = process(itemPrices);
                         try (PrintWriter out = new PrintWriter("itemsDropped.txt")) {
                             out.println(total += itemValue * gItem.getQuantity());
-                            out.println(text);
+                            out.println(text + System.lineSeparator());
                         } catch (IOException ioe) {
                             System.out.println("ERROR");
                         }
@@ -133,7 +133,7 @@ public final class Methods {
         String newString = "";
         while (it.hasNext()) {
             HashMap.Entry pair = (HashMap.Entry)it.next();
-            newString += (pair.getKey() + " | " + pair.getValue() + '\n');
+            newString += (pair.getKey() + " | " + pair.getValue() + System.lineSeparator());
         }
         return newString;
     }
